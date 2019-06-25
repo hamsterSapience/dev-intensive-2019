@@ -1,3 +1,5 @@
+# absent
+
 # Built application files
 build/
 
@@ -5,6 +7,11 @@ build/
 *.dex
 
 # External native build folder generated in Android Studio 2.2 and later
+
+*.apk
+*.ap_
+*.aab
+
 .externalNativeBuild
 
 # Gradle files
@@ -19,6 +26,15 @@ build/
 # Local configuration file (sdk path, etc)
 local.properties
 
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # Log Files
 *.log
 
@@ -27,6 +43,13 @@ local.properties
 
 # Android Studio captures folder
 captures/
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint/reports/
 
 # Keystore files
 # Uncomment the following lines if you do not want to check your keystore files in.
